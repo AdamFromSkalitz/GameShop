@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApiTest\\GameApiTest.csproj": {}
+  },
+  "projects": {
+    "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApiTest\\GameApiTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApiTest\\GameApiTest.csproj",
+        "projectName": "GameApiTest",
+        "projectPath": "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApiTest\\GameApiTest.csproj",
+        "packagesPath": "C:\\Users\\turkletons\\.nuget\\packages\\",
+        "outputPath": "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApiTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turkletons\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApi\\GameApi.csproj": {
+                "projectPath": "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApi\\GameApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApi\\GameApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApi\\GameApi.csproj",
+        "projectName": "GameApi",
+        "projectPath": "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApi\\GameApi.csproj",
+        "packagesPath": "C:\\Users\\turkletons\\.nuget\\packages\\",
+        "outputPath": "F:\\GameShop\\68f47055-9e6a-48d3-8533-e0331e725ff6\\GameApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turkletons\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
