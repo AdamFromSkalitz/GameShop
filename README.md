@@ -10,15 +10,21 @@ Run ./RUNME.sh
 
 cd GameApi
 dotnet run &
+
 cd ../gameview
+
 npm run serve
 
 ## Run Test
 cd GameApiTest
+
 dotnet test
+
 cd gameview
+
 npm test
 
 ## Future work
 Figure out why mocha doesn't run tests
+
 Add e2e tests
