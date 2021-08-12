@@ -1,6 +1,8 @@
 ## Intro
 
-I've a .NET Core Web Api and a Vue.js frontend to take the JSON, convert it into 
+3hr coding test
+
+I've made a .NET Core Web Api and a Vue.js frontend to take the JSON, convert it into 
 the appropriate domain object and send it over https to be made pretty by vuejs.
 
 ## Run Application
